@@ -12,7 +12,29 @@ void limpiar_pantalla()
     system("clear");
   #endif
 }
+float Validar_Division(float x, float y)
+{
+	float rtn;
+	rtn = -1001;
 
+	if(y != 0)
+	{
+		rtn = Dividir(x, y);
+	}
+
+	return rtn;
+}
+int Validar_Factorial(float numero)
+{
+	int rtn;
+	rtn = -1;
+	if(Validar_NumeroEntero(numero) == 1 && numero > 0)
+	{
+		rtn = Factorial(numero);
+	}
+
+	return rtn;
+}
 int Pedir_Entero(char mensaje[])
 {
 	int numeroIngresado;
