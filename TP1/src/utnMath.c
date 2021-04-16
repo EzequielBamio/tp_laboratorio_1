@@ -34,15 +34,19 @@ int Factorial(float x)
 	int factorial;
 	factorial = 1;
 
-	for(i = x; i > 1; i--)
+	if(Validar_NumeroEntero(x) == 1 && x > 0)
 	{
-		factorial = factorial * i;
+		for(i = x; i > 1; i--)
+		{
+			factorial = factorial * i;
+		}
+	}else
+	{
+		factorial = -1;
 	}
 
 	return factorial;
-
 }
-
 float Dividir(float x, float y)
 {
 	float rtn;

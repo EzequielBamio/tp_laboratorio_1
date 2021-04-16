@@ -76,10 +76,10 @@ int main(void) {
 				banderaOperaciones = 1;
 				suma = Sumar(primerNumero, segundoNumero);
 				resta = Restar(primerNumero, segundoNumero);
-				division = Validar_Division(primerNumero, segundoNumero);
+				division = Dividir(primerNumero, segundoNumero);
 				multiplicacion = Multiplicar(primerNumero, segundoNumero);
-				factorialA = Validar_Factorial(primerNumero);
-				factorialB = Validar_Factorial(segundoNumero);
+				factorialA = Factorial(primerNumero);
+				factorialB = Factorial(segundoNumero);
 				printf("Operaciones realizadas!\n");
 				system("pause");
 

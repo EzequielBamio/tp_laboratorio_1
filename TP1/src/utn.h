@@ -18,23 +18,6 @@
  */
 void limpiar_pantalla();
 /**
- * @fn float Validar_Division(float, float)
- * @brief Valida que "y" sea distinto a cero, si lo es hace la division sino devuelve -1
- *
- * @param x numero ingresado por el usuario
- * @param y numero ingresado por el usuario
- * @return devuelve -1 si no se puede hacer la operacion, sino devuelve la division.
- */
-float Validar_Division(float x, float y);
-/**
- * @fn int Validar_Factorial(float)
- * @brief Valida que numero no sea decimal o sea negativo.
- *
- * @param es el numero ingresado por el usuaurio
- * @return devuelve -1 si no se puede hacer, sino devuelve el factorial del numero.
- */
-int Validar_Factorial(float numero);
-/**
  * @fn int Pedir_Entero(char[], char[])
  * @brief pide un numero entero.
  *

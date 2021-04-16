@@ -42,7 +42,7 @@ int Factorial(float x);
  *
  * @param x primer numero ingresado por el usuario
  * @param y segundo numero ingresado por el usuario
- * @return retorna el resultado de la division, si es -1001 la division no se puede hacer
+ * @return retorna el resultado de la division o si "y" es 0 devuelve -1001, la division no se puede hacer.
  */
 float Dividir(float x, float y);
 
