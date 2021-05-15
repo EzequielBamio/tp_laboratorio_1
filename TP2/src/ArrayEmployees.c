@@ -15,7 +15,7 @@ void SubMenu_Informes(eEmployee list[], int len)
 		printf(" \n");
 
 		printf("0. Salir\n");
-		utn_getNumero(&opcion, "INGRESE OPCION: ", 0, 4);
+		utn_getNumero(&opcion, "INGRESE OPCION: ", 0, 2);
 
 		//MENU SWITCH
 		switch (opcion)
