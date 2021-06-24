@@ -558,6 +558,7 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
 	    			pElement2 = ll_get(this, j);
 	    			if(pElement1 != NULL && pElement2 != NULL)
 	    			{
+
 	    				rtn = pFunc(pElement1, pElement2);
 						if((order == 0 && rtn < 0) || (order == 1 && rtn > 0))
 						{
